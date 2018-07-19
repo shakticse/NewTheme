@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISYS.Repository", "ISYS.Repository\ISYS.Repository.csproj", "{C2CA79AB-2D20-49D4-A8AB-D98050A708CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBSamples", "MongoDBSamples\MongoDBSamples.csproj", "{503D1E99-F0F2-4E0D-9102-6D9A05A2E9DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISYS.MongoDB", "ISYS.MongoDB\ISYS.MongoDB.csproj", "{9F2CA82A-BF2E-4140-A703-8111D9C77E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISYS.Model", "ISYS.Model\ISYS.Model.csproj", "{03B73D42-9C72-4494-AFEF-4DD990AB9986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNSubtractAPI", "AddNSubtractAPI\AddNSubtractAPI.csproj", "{1DC34A6F-D83C-4EEF-9CCC-E523EB652D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CA79AB-2D20-49D4-A8AB-D98050A708CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CA79AB-2D20-49D4-A8AB-D98050A708CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CA79AB-2D20-49D4-A8AB-D98050A708CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CA79AB-2D20-49D4-A8AB-D98050A708CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503D1E99-F0F2-4E0D-9102-6D9A05A2E9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503D1E99-F0F2-4E0D-9102-6D9A05A2E9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503D1E99-F0F2-4E0D-9102-6D9A05A2E9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503D1E99-F0F2-4E0D-9102-6D9A05A2E9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2CA82A-BF2E-4140-A703-8111D9C77E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2CA82A-BF2E-4140-A703-8111D9C77E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2CA82A-BF2E-4140-A703-8111D9C77E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2CA82A-BF2E-4140-A703-8111D9C77E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B73D42-9C72-4494-AFEF-4DD990AB9986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B73D42-9C72-4494-AFEF-4DD990AB9986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B73D42-9C72-4494-AFEF-4DD990AB9986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B73D42-9C72-4494-AFEF-4DD990AB9986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC34A6F-D83C-4EEF-9CCC-E523EB652D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC34A6F-D83C-4EEF-9CCC-E523EB652D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC34A6F-D83C-4EEF-9CCC-E523EB652D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC34A6F-D83C-4EEF-9CCC-E523EB652D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF161E38-DE5F-4582-9B4A-21AAF4C910D7}
+	EndGlobalSection
+EndGlobal
