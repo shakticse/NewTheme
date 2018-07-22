@@ -1,5 +1,6 @@
 ﻿using ISYS.Model;
 using ISYS.MongoDB;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,14 +19,38 @@ namespace ISYS.Repository
             throw new NotImplementedException();
         }
 
+        public async Task<Post> Get(string id)
+        {
+            return await _dbContext.Posts.Find(x => x.CourseId == id).FirstOrDefaultAsync();
+        }
+
         public Task<IEnumerable<Post>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Result> Insert(Post entity)
+        public async Task<Result> Insert(Post entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                await _dbContext.Posts.InsertOneAsync(entity);
+                return new Result()
+                {
+                    RecordId = entity.Id,
+                    HasError = false,
+                    Message = "Record Saved Successfully",
+                    StatusCode = 200
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Result()
+                {
+                    HasError = true,
+                    Message = "Error Saving Record",
+                    StatusCode = 200
+                };
+            }
         }
 
         public Task<Result> Update(Post entity)
@@ -41,6 +66,6 @@ namespace ISYS.Repository
         public Task<IEnumerable<Post>> GetById(string id)
         {
             throw new NotImplementedException();
-        }
+        }       
     }
 }

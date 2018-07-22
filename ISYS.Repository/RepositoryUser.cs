@@ -42,5 +42,10 @@ namespace ISYS.Repository
         {
             throw new NotImplementedException();
         }
+
+        public Task<User> Get(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

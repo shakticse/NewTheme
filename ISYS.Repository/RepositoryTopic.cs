@@ -42,6 +42,11 @@ namespace ISYS.Repository
         public Task<Result> Delete(Topic entity)
         {
             throw new NotImplementedException();
-        }   
+        }
+
+        public Task<Topic> Get(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

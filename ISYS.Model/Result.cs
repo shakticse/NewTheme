@@ -7,6 +7,7 @@ namespace ISYS.Model
     public class Result
     {
         public int StatusCode { get; set; }
+        public string RecordId { get; set; }
         public bool HasError { get; set; } = true;
         public string Message { get; set; }
     }

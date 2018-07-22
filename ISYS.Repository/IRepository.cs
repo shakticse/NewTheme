@@ -10,6 +10,7 @@ namespace ISYS.Repository
     {
         Task<IEnumerable<T>> GetAll();
         Task<T> Get(int id);
+        Task<T> Get(string id);
         Task<IEnumerable<T>> GetById(string id);
         Task<Result> Insert(T entity);
         Task<Result> Update(T entity);

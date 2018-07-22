@@ -26,6 +26,11 @@ namespace ISYS.Repository
             throw new NotImplementedException();
         }
 
+        public Task<Class> Get(string id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Class>> GetAll()
         {
             try
