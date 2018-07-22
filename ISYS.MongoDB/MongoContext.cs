@@ -7,7 +7,7 @@ namespace ISYS.MongoDB
     public class MongoDBContext
     {
         public const string CONNECTION_STRING_NAME = "AddNSubtract";
-        public const string DATABASE_NAME = "addnsubtract";
+        public const string DATABASE_NAME = "AddNSubtract";
         public const string POSTS_COLLECTION_NAME = "posts";
         public const string USERS_COLLECTION_NAME = "users";
         public const string TOPICS_COLLECTION_NAME = "topic";
